@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+/* Título y descripción */
+.title {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Imagen central */
+.assets {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+    margin: 20;
+}
+
+.assets img {
+    width: 60%;      
+    height: 300px;    
+    object-fit: cover; 
+    border-radius: 8px; /
+}
+
+
+/* Contenedor de servicios */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Cada bloque de servicio */
+.container h2 {
+    font-size: 28px;
+    color: #2b6cb0; /* Azul */
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 14px;
+    color: #555;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
